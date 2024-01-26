@@ -18,7 +18,22 @@
     @media screen and (max-width:991px) {
      body { font-size: 1em; }
     }
+    
+      /* Max  1940px */ 
+    @media screen and (min-width:1940px) {
+      body { 
+      font-size: 1em; 
+      }
+      
+      .section-hero.top {
+      margin-top: 45px;
+      }
 
+      .main-heading {
+      margin-top: -55px;
+      }
+
+    }
 
 
    /* Max  479px */ 
