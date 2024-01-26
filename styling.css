@@ -18,9 +18,29 @@
     @media screen and (max-width:991px) {
      body { font-size: 1em; }
     }
-    
-    @media screen and (max-width:991px) {
-     body { font-size: 1em; }
+
+
+
+   /* Max  479px */ 
+    @media screen and (max-width: 479px) {
+
+    .section-hero.top {
+    height: 100%;
+    min-height: 520px;
+    background-image: url(https://uploads-ssl.webflow.com/659ddd2f0bbf83eebcc3871e/65b39f5c7f881a481c55754e_Mobil-O-Hansens_Samlebilde-web-400px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-top: 0;
     }
+  }
+
 
     /* Main css settings */
+
+    #logo-elfag {
+      width: 3.5em;
+      height: 100%;
+      margin-top: -10px;
+      margin-left: -6px;
+    }
